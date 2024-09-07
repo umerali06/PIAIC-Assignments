@@ -1,0 +1,377 @@
+[
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "math",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "math",
+        "description": "math",
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "pi",
+        "importPath": "math",
+        "description": "math",
+        "isExtraImport": true,
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "no1",
+        "kind": 5,
+        "importPath": "DOCKER-WITH-PY - Assignment 02.doc",
+        "description": "DOCKER-WITH-PY - Assignment 02.doc",
+        "peekOfCode": "no1 = int(input(\"Enter the First no:\"))\nno2 = int(input(\"Enter the Second no:\"))\nresult = no1+no2\nprint(f\"The result of the Two numbers are : {result}\")",
+        "detail": "DOCKER-WITH-PY - Assignment 02.doc",
+        "documentation": {}
+    },
+    {
+        "label": "no2",
+        "kind": 5,
+        "importPath": "DOCKER-WITH-PY - Assignment 02.doc",
+        "description": "DOCKER-WITH-PY - Assignment 02.doc",
+        "peekOfCode": "no2 = int(input(\"Enter the Second no:\"))\nresult = no1+no2\nprint(f\"The result of the Two numbers are : {result}\")",
+        "detail": "DOCKER-WITH-PY - Assignment 02.doc",
+        "documentation": {}
+    },
+    {
+        "label": "result",
+        "kind": 5,
+        "importPath": "DOCKER-WITH-PY - Assignment 02.doc",
+        "description": "DOCKER-WITH-PY - Assignment 02.doc",
+        "peekOfCode": "result = no1+no2\nprint(f\"The result of the Two numbers are : {result}\")",
+        "detail": "DOCKER-WITH-PY - Assignment 02.doc",
+        "documentation": {}
+    },
+    {
+        "label": "CalculateAge",
+        "kind": 2,
+        "importPath": "Python Operation with Functions - 04.OperationsWithFunc-Assignment04",
+        "description": "Python Operation with Functions - 04.OperationsWithFunc-Assignment04",
+        "peekOfCode": "def CalculateAge():\n  while True:\n    try:\n      birth_year = int(input(\"Enter your birth year: \"))\n      # current_year = int(input(\"Enter the current year: \"))\n      current_year = datetime.now().year\n      if birth_year > current_year:\n        print(\"Invalid year. Please enter a year that is less than or equal to the current year.\")\n        break\n      else:",
+        "detail": "Python Operation with Functions - 04.OperationsWithFunc-Assignment04",
+        "documentation": {}
+    },
+    {
+        "label": "CalculateTriangleArea",
+        "kind": 2,
+        "importPath": "Python Operation with Functions - 04.OperationsWithFunc-Assignment04",
+        "description": "Python Operation with Functions - 04.OperationsWithFunc-Assignment04",
+        "peekOfCode": "def CalculateTriangleArea():\n  while True:\n    try:\n      length = float(input(\"Enter the Length: \"))\n      width = float(input(\"Enter the width: \"))\n      area = length * width\n      return area\n    except ValueError:\n      print(\"You put the invalid Input.Try Again\")\narea =CalculateTriangleArea()",
+        "detail": "Python Operation with Functions - 04.OperationsWithFunc-Assignment04",
+        "documentation": {}
+    },
+    {
+        "label": "CalculateCircleArea",
+        "kind": 2,
+        "importPath": "Python Operation with Functions - 04.OperationsWithFunc-Assignment04",
+        "description": "Python Operation with Functions - 04.OperationsWithFunc-Assignment04",
+        "peekOfCode": "def CalculateCircleArea():\n  from math import pi\n  while True:\n    try:\n      radius = float(input(\"Enter the radius: \"))\n      area = pi*(radius**2)\n      return area\n    except ValueError:\n      print(\"You put the invalid Input.Try Again\")\narea =CalculateCircleArea()",
+        "detail": "Python Operation with Functions - 04.OperationsWithFunc-Assignment04",
+        "documentation": {}
+    },
+    {
+        "label": "CalculateCubeArea",
+        "kind": 2,
+        "importPath": "Python Operation with Functions - 04.OperationsWithFunc-Assignment04",
+        "description": "Python Operation with Functions - 04.OperationsWithFunc-Assignment04",
+        "peekOfCode": "def CalculateCubeArea():\n  while True:\n    try:\n      Side = float(input(\"Enter the Side Length: \"))\n      area = 6*(Side**2)\n      return area\n    except ValueError:\n      print(\"You put the invalid Input.Try Again\")\narea =CalculateCubeArea()\nprint(f\"The Area of cube is {area:.2f}\")",
+        "detail": "Python Operation with Functions - 04.OperationsWithFunc-Assignment04",
+        "documentation": {}
+    },
+    {
+        "label": "TempConvertor",
+        "kind": 2,
+        "importPath": "Python Operation with Functions - 04.OperationsWithFunc-Assignment04",
+        "description": "Python Operation with Functions - 04.OperationsWithFunc-Assignment04",
+        "peekOfCode": "def TempConvertor():\n  while True:\n    try:\n      temperature = float(input(\"Enter the Temperature: \"))\n      print(temperature)\n      unit = input(\"Enter the unit Value (C/F):\")\n      # Fahrenheit to Celsius conversion:\n      if unit.upper() == \"C\":\n        celsius = (temperature - 32) * 5/9\n        print(f\"{temperature}°F is equal to {celsius:.2f}°C\")",
+        "detail": "Python Operation with Functions - 04.OperationsWithFunc-Assignment04",
+        "documentation": {}
+    },
+    {
+        "label": "TimeConvertor",
+        "kind": 2,
+        "importPath": "Python Operation with Functions - 04.OperationsWithFunc-Assignment04",
+        "description": "Python Operation with Functions - 04.OperationsWithFunc-Assignment04",
+        "peekOfCode": "def TimeConvertor():\n  while True:\n    try:\n      seconds = int(input(\"Enter the number of seconds: \"))\n      minutes = seconds // 60\n      seconds = seconds % 60\n      print(f\"{seconds} seconds is equal to {minutes} minutes and {seconds} seconds.\")\n      break\n    except ValueError:\n      print(\"You put the invalid Input.Try Again\")",
+        "detail": "Python Operation with Functions - 04.OperationsWithFunc-Assignment04",
+        "documentation": {}
+    },
+    {
+        "label": "PercentageCalculator",
+        "kind": 2,
+        "importPath": "Python Operation with Functions - 04.OperationsWithFunc-Assignment04",
+        "description": "Python Operation with Functions - 04.OperationsWithFunc-Assignment04",
+        "peekOfCode": "def PercentageCalculator():\n  while True:\n    try:\n      obtained_marks = int(input(\"Enter Your Obtained Marks: \"))\n      # print(obtained_marks)\n      total_marks = int(input(\"Enter the Total Marks: \"))\n      # print(total_marks)\n      percentage = (obtained_marks/total_marks)*100\n      return percentage\n    except ValueError:",
+        "detail": "Python Operation with Functions - 04.OperationsWithFunc-Assignment04",
+        "documentation": {}
+    },
+    {
+        "label": "BmiCalculate",
+        "kind": 2,
+        "importPath": "Python Operation with Functions - 04.OperationsWithFunc-Assignment04",
+        "description": "Python Operation with Functions - 04.OperationsWithFunc-Assignment04",
+        "peekOfCode": "def BmiCalculate():\n  while True:\n    try:\n      # Define the height and weight variables\n      height = float(input(\"Enter your height in meters: \"))\n      weight = float(input(\"Enter your weight in kilograms: \"))\n      # Calculate the BMI\n      bmi = weight / (height ** 2)\n      return bmi\n    except ValueError:",
+        "detail": "Python Operation with Functions - 04.OperationsWithFunc-Assignment04",
+        "documentation": {}
+    },
+    {
+        "label": "VolumeCalculate",
+        "kind": 2,
+        "importPath": "Python Operation with Functions - 04.OperationsWithFunc-Assignment04",
+        "description": "Python Operation with Functions - 04.OperationsWithFunc-Assignment04",
+        "peekOfCode": "def VolumeCalculate():\n  while True:\n    try:\n      radius = float(input(\"Enter the radius of the cylinder: \"))\n      height = float(input(\"Enter the height of the cylinder: \"))\n      volume = math.pi * (radius ** 2) * height\n      return volume\n    except ValueError:\n      print(\"You put the invalid Input.Try Again\")\nvolumeCalc =VolumeCalculate()",
+        "detail": "Python Operation with Functions - 04.OperationsWithFunc-Assignment04",
+        "documentation": {}
+    },
+    {
+        "label": "age",
+        "kind": 5,
+        "importPath": "Python Operation with Functions - 04.OperationsWithFunc-Assignment04",
+        "description": "Python Operation with Functions - 04.OperationsWithFunc-Assignment04",
+        "peekOfCode": "age = CalculateAge()\nprint(f\"Your age is {age} years.\")\nprint(\"\\n||-----------------Question End------------------||\\n\")\n# Question no#2:\n# Write a program that calculates the area of a rectangle using length and width variables?\n# Solution:\nprint(\"Question no#2\\n\")\ndef CalculateTriangleArea():\n  while True:\n    try:",
+        "detail": "Python Operation with Functions - 04.OperationsWithFunc-Assignment04",
+        "documentation": {}
+    },
+    {
+        "label": "bmi",
+        "kind": 5,
+        "importPath": "Python Operation with Functions - 04.OperationsWithFunc-Assignment04",
+        "description": "Python Operation with Functions - 04.OperationsWithFunc-Assignment04",
+        "peekOfCode": "bmi = BmiCalculate()\nprint(f\"Your BMI is {bmi:.2f}\")\nprint(\"\\n||-----------------Question End------------------||\\n\")\n# Question no#9:\n# Write a program that calculates the volume of a cylinder using the formula .\n# Solution:\nprint(\"Question no#9\\n\")\nimport math\ndef VolumeCalculate():\n  while True:",
+        "detail": "Python Operation with Functions - 04.OperationsWithFunc-Assignment04",
+        "documentation": {}
+    },
+    {
+        "label": "currentYear",
+        "kind": 5,
+        "importPath": "Python Operators Questions- Assignment 03.Piaic-assignment-03",
+        "description": "Python Operators Questions- Assignment 03.Piaic-assignment-03",
+        "peekOfCode": "currentYear = datetime.now().year\n# print(currentYear)\nbirthYear = int(input(\"Enter your birth year: \"))\n# print(birthYear)\nage = currentYear - birthYear\n# print(age)\nprint(f\"Your Age is: {age}\")\nprint(\"\\n||-----------------Question End------------------||\\n\")\n# Question no#2:\n# Write a program that calculates the area of a rectangle using length and width variables?",
+        "detail": "Python Operators Questions- Assignment 03.Piaic-assignment-03",
+        "documentation": {}
+    },
+    {
+        "label": "birthYear",
+        "kind": 5,
+        "importPath": "Python Operators Questions- Assignment 03.Piaic-assignment-03",
+        "description": "Python Operators Questions- Assignment 03.Piaic-assignment-03",
+        "peekOfCode": "birthYear = int(input(\"Enter your birth year: \"))\n# print(birthYear)\nage = currentYear - birthYear\n# print(age)\nprint(f\"Your Age is: {age}\")\nprint(\"\\n||-----------------Question End------------------||\\n\")\n# Question no#2:\n# Write a program that calculates the area of a rectangle using length and width variables?\n# Solution:\nlength = float(input(\"Enter the length of the rectangle: \"))",
+        "detail": "Python Operators Questions- Assignment 03.Piaic-assignment-03",
+        "documentation": {}
+    },
+    {
+        "label": "age",
+        "kind": 5,
+        "importPath": "Python Operators Questions- Assignment 03.Piaic-assignment-03",
+        "description": "Python Operators Questions- Assignment 03.Piaic-assignment-03",
+        "peekOfCode": "age = currentYear - birthYear\n# print(age)\nprint(f\"Your Age is: {age}\")\nprint(\"\\n||-----------------Question End------------------||\\n\")\n# Question no#2:\n# Write a program that calculates the area of a rectangle using length and width variables?\n# Solution:\nlength = float(input(\"Enter the length of the rectangle: \"))\n# print(length)\nwidth = float(input(\"Enter the width of the rectangle: \"))",
+        "detail": "Python Operators Questions- Assignment 03.Piaic-assignment-03",
+        "documentation": {}
+    },
+    {
+        "label": "length",
+        "kind": 5,
+        "importPath": "Python Operators Questions- Assignment 03.Piaic-assignment-03",
+        "description": "Python Operators Questions- Assignment 03.Piaic-assignment-03",
+        "peekOfCode": "length = float(input(\"Enter the length of the rectangle: \"))\n# print(length)\nwidth = float(input(\"Enter the width of the rectangle: \"))\n# print(width)\narea = length * width\n# print(area)\nprint(f\"The area of the rectangle is: {area}\")\nprint(\"\\n||-----------------Question End------------------||\\n\")\n# Question no#3:\n# Write a program that calculates the area of a circle.",
+        "detail": "Python Operators Questions- Assignment 03.Piaic-assignment-03",
+        "documentation": {}
+    },
+    {
+        "label": "width",
+        "kind": 5,
+        "importPath": "Python Operators Questions- Assignment 03.Piaic-assignment-03",
+        "description": "Python Operators Questions- Assignment 03.Piaic-assignment-03",
+        "peekOfCode": "width = float(input(\"Enter the width of the rectangle: \"))\n# print(width)\narea = length * width\n# print(area)\nprint(f\"The area of the rectangle is: {area}\")\nprint(\"\\n||-----------------Question End------------------||\\n\")\n# Question no#3:\n# Write a program that calculates the area of a circle.\n# Solution:\nfrom math import pi",
+        "detail": "Python Operators Questions- Assignment 03.Piaic-assignment-03",
+        "documentation": {}
+    },
+    {
+        "label": "area",
+        "kind": 5,
+        "importPath": "Python Operators Questions- Assignment 03.Piaic-assignment-03",
+        "description": "Python Operators Questions- Assignment 03.Piaic-assignment-03",
+        "peekOfCode": "area = length * width\n# print(area)\nprint(f\"The area of the rectangle is: {area}\")\nprint(\"\\n||-----------------Question End------------------||\\n\")\n# Question no#3:\n# Write a program that calculates the area of a circle.\n# Solution:\nfrom math import pi\nradius = float(input(\"Enter the Radius of the Circle: \"))\n# print(radius)",
+        "detail": "Python Operators Questions- Assignment 03.Piaic-assignment-03",
+        "documentation": {}
+    },
+    {
+        "label": "radius",
+        "kind": 5,
+        "importPath": "Python Operators Questions- Assignment 03.Piaic-assignment-03",
+        "description": "Python Operators Questions- Assignment 03.Piaic-assignment-03",
+        "peekOfCode": "radius = float(input(\"Enter the Radius of the Circle: \"))\n# print(radius)\narea = pi*(radius**2)\n# print(area)\nprint(f\"The area of the circle is: {area:.2f}\")\nprint(\"\\n||-----------------Question End------------------||\\n\")\n# Question no#4:\n# Write a program that calculates the area of the cube.\n# Solution:\nside = float(input(\"Enter the Side Length: \"))",
+        "detail": "Python Operators Questions- Assignment 03.Piaic-assignment-03",
+        "documentation": {}
+    },
+    {
+        "label": "area",
+        "kind": 5,
+        "importPath": "Python Operators Questions- Assignment 03.Piaic-assignment-03",
+        "description": "Python Operators Questions- Assignment 03.Piaic-assignment-03",
+        "peekOfCode": "area = pi*(radius**2)\n# print(area)\nprint(f\"The area of the circle is: {area:.2f}\")\nprint(\"\\n||-----------------Question End------------------||\\n\")\n# Question no#4:\n# Write a program that calculates the area of the cube.\n# Solution:\nside = float(input(\"Enter the Side Length: \"))\n# print(side)\narea = 6 * (side**2)",
+        "detail": "Python Operators Questions- Assignment 03.Piaic-assignment-03",
+        "documentation": {}
+    },
+    {
+        "label": "side",
+        "kind": 5,
+        "importPath": "Python Operators Questions- Assignment 03.Piaic-assignment-03",
+        "description": "Python Operators Questions- Assignment 03.Piaic-assignment-03",
+        "peekOfCode": "side = float(input(\"Enter the Side Length: \"))\n# print(side)\narea = 6 * (side**2)\n# print(area)\nprint(f\"The area of the cube is: {area:.2f}\")\nprint(\"\\n||-----------------Question End------------------||\\n\")\n# Question no#5:\n# Create a program that converts a temperature from Fahrenheit to Celsius and vice versa using a variable.\n# Solution:\ntemperature = float(input(\"Enter the Temperature: \"))",
+        "detail": "Python Operators Questions- Assignment 03.Piaic-assignment-03",
+        "documentation": {}
+    },
+    {
+        "label": "area",
+        "kind": 5,
+        "importPath": "Python Operators Questions- Assignment 03.Piaic-assignment-03",
+        "description": "Python Operators Questions- Assignment 03.Piaic-assignment-03",
+        "peekOfCode": "area = 6 * (side**2)\n# print(area)\nprint(f\"The area of the cube is: {area:.2f}\")\nprint(\"\\n||-----------------Question End------------------||\\n\")\n# Question no#5:\n# Create a program that converts a temperature from Fahrenheit to Celsius and vice versa using a variable.\n# Solution:\ntemperature = float(input(\"Enter the Temperature: \"))\nprint(temperature)\nunit = input(\"Enter the unit Value (C/F):\")",
+        "detail": "Python Operators Questions- Assignment 03.Piaic-assignment-03",
+        "documentation": {}
+    },
+    {
+        "label": "temperature",
+        "kind": 5,
+        "importPath": "Python Operators Questions- Assignment 03.Piaic-assignment-03",
+        "description": "Python Operators Questions- Assignment 03.Piaic-assignment-03",
+        "peekOfCode": "temperature = float(input(\"Enter the Temperature: \"))\nprint(temperature)\nunit = input(\"Enter the unit Value (C/F):\")\n# Fahrenheit to Celsius conversion:\nif unit.upper() == \"C\":\n  celsius = (temperature - 32) * 5/9\n  print(f\"{temperature}°F is equal to {celsius:.2f}°C\")\n# Celsius to Fahrenheit conversion:\nelif unit.upper() == \"F\":\n    fahrenheit = (temperature * 9/5) + 32",
+        "detail": "Python Operators Questions- Assignment 03.Piaic-assignment-03",
+        "documentation": {}
+    },
+    {
+        "label": "unit",
+        "kind": 5,
+        "importPath": "Python Operators Questions- Assignment 03.Piaic-assignment-03",
+        "description": "Python Operators Questions- Assignment 03.Piaic-assignment-03",
+        "peekOfCode": "unit = input(\"Enter the unit Value (C/F):\")\n# Fahrenheit to Celsius conversion:\nif unit.upper() == \"C\":\n  celsius = (temperature - 32) * 5/9\n  print(f\"{temperature}°F is equal to {celsius:.2f}°C\")\n# Celsius to Fahrenheit conversion:\nelif unit.upper() == \"F\":\n    fahrenheit = (temperature * 9/5) + 32\n    print(f\"{temperature}°C is equal to {fahrenheit:.2f}°F\")\nelse:",
+        "detail": "Python Operators Questions- Assignment 03.Piaic-assignment-03",
+        "documentation": {}
+    },
+    {
+        "label": "seconds",
+        "kind": 5,
+        "importPath": "Python Operators Questions- Assignment 03.Piaic-assignment-03",
+        "description": "Python Operators Questions- Assignment 03.Piaic-assignment-03",
+        "peekOfCode": "seconds = int(input(\"Enter the number of seconds: \"))\nminutes = seconds // 60\nseconds = seconds % 60\nprint(f\"{seconds} seconds is equal to {minutes} minutes and {seconds} seconds.\")\nprint(\"\\n||-----------------Question End------------------||\\n\")\n# Question no#7:\n# Write a program that calculates the percentage.?\n# Solution:",
+        "detail": "Python Operators Questions- Assignment 03.Piaic-assignment-03",
+        "documentation": {}
+    },
+    {
+        "label": "minutes",
+        "kind": 5,
+        "importPath": "Python Operators Questions- Assignment 03.Piaic-assignment-03",
+        "description": "Python Operators Questions- Assignment 03.Piaic-assignment-03",
+        "peekOfCode": "minutes = seconds // 60\nseconds = seconds % 60\nprint(f\"{seconds} seconds is equal to {minutes} minutes and {seconds} seconds.\")\nprint(\"\\n||-----------------Question End------------------||\\n\")\n# Question no#7:\n# Write a program that calculates the percentage.?\n# Solution:\nobtained_marks = int(input(\"Enter Your Obtained Marks: \"))",
+        "detail": "Python Operators Questions- Assignment 03.Piaic-assignment-03",
+        "documentation": {}
+    },
+    {
+        "label": "seconds",
+        "kind": 5,
+        "importPath": "Python Operators Questions- Assignment 03.Piaic-assignment-03",
+        "description": "Python Operators Questions- Assignment 03.Piaic-assignment-03",
+        "peekOfCode": "seconds = seconds % 60\nprint(f\"{seconds} seconds is equal to {minutes} minutes and {seconds} seconds.\")\nprint(\"\\n||-----------------Question End------------------||\\n\")\n# Question no#7:\n# Write a program that calculates the percentage.?\n# Solution:\nobtained_marks = int(input(\"Enter Your Obtained Marks: \"))\n# print(obtained_marks)\ntotal_marks = int(input(\"Enter the Total Marks: \"))",
+        "detail": "Python Operators Questions- Assignment 03.Piaic-assignment-03",
+        "documentation": {}
+    },
+    {
+        "label": "obtained_marks",
+        "kind": 5,
+        "importPath": "Python Operators Questions- Assignment 03.Piaic-assignment-03",
+        "description": "Python Operators Questions- Assignment 03.Piaic-assignment-03",
+        "peekOfCode": "obtained_marks = int(input(\"Enter Your Obtained Marks: \"))\n# print(obtained_marks)\ntotal_marks = int(input(\"Enter the Total Marks: \"))\n# print(total_marks)\npercentage = (obtained_marks/total_marks)*100\n# print(percentage)\nprint(f\"Your Percentage Marks : {percentage}%\")\nprint(\"\\n||-----------------Question End------------------||\\n\")\n# Question no#8:\n# Write a program that calculates the BMI using height (in meters) and weight (in kilograms) variables.",
+        "detail": "Python Operators Questions- Assignment 03.Piaic-assignment-03",
+        "documentation": {}
+    },
+    {
+        "label": "total_marks",
+        "kind": 5,
+        "importPath": "Python Operators Questions- Assignment 03.Piaic-assignment-03",
+        "description": "Python Operators Questions- Assignment 03.Piaic-assignment-03",
+        "peekOfCode": "total_marks = int(input(\"Enter the Total Marks: \"))\n# print(total_marks)\npercentage = (obtained_marks/total_marks)*100\n# print(percentage)\nprint(f\"Your Percentage Marks : {percentage}%\")\nprint(\"\\n||-----------------Question End------------------||\\n\")\n# Question no#8:\n# Write a program that calculates the BMI using height (in meters) and weight (in kilograms) variables.\n# Solution:\n# Define the height and weight variables",
+        "detail": "Python Operators Questions- Assignment 03.Piaic-assignment-03",
+        "documentation": {}
+    },
+    {
+        "label": "percentage",
+        "kind": 5,
+        "importPath": "Python Operators Questions- Assignment 03.Piaic-assignment-03",
+        "description": "Python Operators Questions- Assignment 03.Piaic-assignment-03",
+        "peekOfCode": "percentage = (obtained_marks/total_marks)*100\n# print(percentage)\nprint(f\"Your Percentage Marks : {percentage}%\")\nprint(\"\\n||-----------------Question End------------------||\\n\")\n# Question no#8:\n# Write a program that calculates the BMI using height (in meters) and weight (in kilograms) variables.\n# Solution:\n# Define the height and weight variables\nheight = float(input(\"Enter your height in meters: \"))\nweight = float(input(\"Enter your weight in kilograms: \"))",
+        "detail": "Python Operators Questions- Assignment 03.Piaic-assignment-03",
+        "documentation": {}
+    },
+    {
+        "label": "height",
+        "kind": 5,
+        "importPath": "Python Operators Questions- Assignment 03.Piaic-assignment-03",
+        "description": "Python Operators Questions- Assignment 03.Piaic-assignment-03",
+        "peekOfCode": "height = float(input(\"Enter your height in meters: \"))\nweight = float(input(\"Enter your weight in kilograms: \"))\n# Calculate the BMI\nbmi = weight / (height ** 2)\n# Print the BMI\nprint(\"Your BMI is:\", bmi)\n# Determine the BMI category\nif bmi < 18.5:\n    print(\"You are underweight.\")\nelif bmi < 25:",
+        "detail": "Python Operators Questions- Assignment 03.Piaic-assignment-03",
+        "documentation": {}
+    },
+    {
+        "label": "weight",
+        "kind": 5,
+        "importPath": "Python Operators Questions- Assignment 03.Piaic-assignment-03",
+        "description": "Python Operators Questions- Assignment 03.Piaic-assignment-03",
+        "peekOfCode": "weight = float(input(\"Enter your weight in kilograms: \"))\n# Calculate the BMI\nbmi = weight / (height ** 2)\n# Print the BMI\nprint(\"Your BMI is:\", bmi)\n# Determine the BMI category\nif bmi < 18.5:\n    print(\"You are underweight.\")\nelif bmi < 25:\n    print(\"You are normal weight.\")",
+        "detail": "Python Operators Questions- Assignment 03.Piaic-assignment-03",
+        "documentation": {}
+    },
+    {
+        "label": "bmi",
+        "kind": 5,
+        "importPath": "Python Operators Questions- Assignment 03.Piaic-assignment-03",
+        "description": "Python Operators Questions- Assignment 03.Piaic-assignment-03",
+        "peekOfCode": "bmi = weight / (height ** 2)\n# Print the BMI\nprint(\"Your BMI is:\", bmi)\n# Determine the BMI category\nif bmi < 18.5:\n    print(\"You are underweight.\")\nelif bmi < 25:\n    print(\"You are normal weight.\")\nelif bmi < 30:\n    print(\"You are overweight.\")",
+        "detail": "Python Operators Questions- Assignment 03.Piaic-assignment-03",
+        "documentation": {}
+    },
+    {
+        "label": "radius",
+        "kind": 5,
+        "importPath": "Python Operators Questions- Assignment 03.Piaic-assignment-03",
+        "description": "Python Operators Questions- Assignment 03.Piaic-assignment-03",
+        "peekOfCode": "radius = float(input(\"Enter the radius of the cylinder: \"))\nheight = float(input(\"Enter the height of the cylinder: \"))\nvolume = math.pi * (radius ** 2) * height\nprint(\"\\n||-----------------Question End------------------||\\n\")",
+        "detail": "Python Operators Questions- Assignment 03.Piaic-assignment-03",
+        "documentation": {}
+    },
+    {
+        "label": "height",
+        "kind": 5,
+        "importPath": "Python Operators Questions- Assignment 03.Piaic-assignment-03",
+        "description": "Python Operators Questions- Assignment 03.Piaic-assignment-03",
+        "peekOfCode": "height = float(input(\"Enter the height of the cylinder: \"))\nvolume = math.pi * (radius ** 2) * height\nprint(\"\\n||-----------------Question End------------------||\\n\")",
+        "detail": "Python Operators Questions- Assignment 03.Piaic-assignment-03",
+        "documentation": {}
+    },
+    {
+        "label": "volume",
+        "kind": 5,
+        "importPath": "Python Operators Questions- Assignment 03.Piaic-assignment-03",
+        "description": "Python Operators Questions- Assignment 03.Piaic-assignment-03",
+        "peekOfCode": "volume = math.pi * (radius ** 2) * height\nprint(\"\\n||-----------------Question End------------------||\\n\")",
+        "detail": "Python Operators Questions- Assignment 03.Piaic-assignment-03",
+        "documentation": {}
+    }
+]
