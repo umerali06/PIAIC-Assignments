@@ -60,6 +60,87 @@
         "documentation": {}
     },
     {
+        "label": "insert_value",
+        "kind": 2,
+        "importPath": "Programs with lists - Assignment 06.listPrograms",
+        "description": "Programs with lists - Assignment 06.listPrograms",
+        "peekOfCode": "def insert_value(arr, index, value):\n  arr.insert(index, value)\n  return arr\nwhile True:\n  try:\n    arr = input(\"Enter the Array (space-separated values): \").split()\n    arr = [int(x) for x in arr]\n    index = int(input(\"Enter the Index: \"))\n    value = int(input(\"Enter the Value: \"))\n    result = insert_value(arr,index, value)",
+        "detail": "Programs with lists - Assignment 06.listPrograms",
+        "documentation": {}
+    },
+    {
+        "label": "shopping_cart",
+        "kind": 2,
+        "importPath": "Programs with lists - Assignment 06.listPrograms",
+        "description": "Programs with lists - Assignment 06.listPrograms",
+        "peekOfCode": "def shopping_cart():\n  cart = []\n  while True:\n    print(\"\\nShopping Cart:\")\n    print(\"1. Add Item\")\n    print(\"2. Remove Item\")\n    print(\"3. Update Quantity\")\n    print(\"4. View Cart\")\n    print(\"5. Exit\")\n    choice = int(input(\"Enter your choice: \"))",
+        "detail": "Programs with lists - Assignment 06.listPrograms",
+        "documentation": {}
+    },
+    {
+        "label": "Print_DigLoop",
+        "kind": 2,
+        "importPath": "Programs with lists - Assignment 06.listPrograms",
+        "description": "Programs with lists - Assignment 06.listPrograms",
+        "peekOfCode": "def Print_DigLoop():\n  i = 1\n  while i <= 25:\n    print(i)\n    i += 1\nPrint_DigLoop()\nprint(\"_____________________\")\n# 4. *Write a program* that uses a while loop to print the first 10 even numbers.\nprint(\"\\nQ:4\")\ndef Print_EvenLoop():",
+        "detail": "Programs with lists - Assignment 06.listPrograms",
+        "documentation": {}
+    },
+    {
+        "label": "Print_EvenLoop",
+        "kind": 2,
+        "importPath": "Programs with lists - Assignment 06.listPrograms",
+        "description": "Programs with lists - Assignment 06.listPrograms",
+        "peekOfCode": "def Print_EvenLoop():\n  i = 2\n  while i <= 20:\n    print(i)\n    i += 2\nPrint_EvenLoop()\nprint(\"___________________\")\n# 5. *Create a function* that takes a positive integer as a parameter and uses a while loop to calculate and return the factorial of that number.\nprint(\"\\nQ:5\")\ndef factorial(n):",
+        "detail": "Programs with lists - Assignment 06.listPrograms",
+        "documentation": {}
+    },
+    {
+        "label": "factorial",
+        "kind": 2,
+        "importPath": "Programs with lists - Assignment 06.listPrograms",
+        "description": "Programs with lists - Assignment 06.listPrograms",
+        "peekOfCode": "def factorial(n):\n  try:\n    if n < 0:\n      raise ValueError(\"Factorial is not defined for negative numbers.\")\n    result = 1\n    i = 1\n    while i <= n:\n      result *= i\n      i += 1\n    return result",
+        "detail": "Programs with lists - Assignment 06.listPrograms",
+        "documentation": {}
+    },
+    {
+        "label": "remove_negative",
+        "kind": 2,
+        "importPath": "Programs with lists - Assignment 06.listPrograms",
+        "description": "Programs with lists - Assignment 06.listPrograms",
+        "peekOfCode": "def remove_negative():\n  try:\n    return [x for x in arr if x >= 0]\n  except TypeError as e:\n    print(\"Error: \", e)\n    return None\nwhile True:\n  try:\n    arr = input(\"Enter the Array (space-separated values): \").split()\n    arr = [int(x) for x in arr]",
+        "detail": "Programs with lists - Assignment 06.listPrograms",
+        "documentation": {}
+    },
+    {
+        "label": "sum_array",
+        "kind": 2,
+        "importPath": "Programs with lists - Assignment 06.listPrograms",
+        "description": "Programs with lists - Assignment 06.listPrograms",
+        "peekOfCode": "def sum_array(arr):\n  try:\n    sum = 0\n    i = 0\n    while i < len(arr):\n      sum += arr[i]\n      i += 1\n    return sum\n  except TypeError as e:\n    print(\"Error: \", e)",
+        "detail": "Programs with lists - Assignment 06.listPrograms",
+        "documentation": {}
+    },
+    {
+        "label": "celsius_to_fahrenheit",
+        "kind": 2,
+        "importPath": "Programs with lists - Assignment 06.listPrograms",
+        "description": "Programs with lists - Assignment 06.listPrograms",
+        "peekOfCode": "def celsius_to_fahrenheit(celsius):\n  try:\n    return (celsius * 9/5) + 32\n  except TypeError as e:\n    print(\"Error: \", e)\n    return None\nwhile True:\n  try:\n    temps = input(\"Enter the temperatures in Celsius (space-separated values): \").split()\n    temps = [float(x) for x in temps]",
+        "detail": "Programs with lists - Assignment 06.listPrograms",
+        "documentation": {}
+    },
+    {
+        "label": "remove_odd_numbers",
+        "kind": 2,
+        "importPath": "Programs with lists - Assignment 06.listPrograms",
+        "description": "Programs with lists - Assignment 06.listPrograms",
+        "peekOfCode": "def remove_odd_numbers(arr):\n  try:\n    return [x for x in arr if x % 2 == 0]\n  except TypeError as e:\n    print(\"Error: \", e)\n    return None\nwhile True:\n  try:\n    arr = input(\"Enter the Array (space-separated values): \").split()\n    arr = [int(x) for x in arr]",
+        "detail": "Programs with lists - Assignment 06.listPrograms",
+        "documentation": {}
+    },
+    {
         "label": "CalculateAge",
         "kind": 2,
         "importPath": "Python Operation with Functions - 04.OperationsWithFunc-Assignment04",
