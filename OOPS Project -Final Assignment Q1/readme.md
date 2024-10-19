@@ -2,10 +2,10 @@
 
 ## Student Info:
 
-**Name** : Umer Ali
-**Batch** : 65
-**Roll No**: PIAIC243523
-**Course** : Certified Cloud Native Generative AI
+**Name** : Umer Ali.
+**Batch** : 65.
+**Roll No**: PIAIC243523.
+**Course** : Certified Cloud Native Generative AI.
 
 ## Project Overview
 
@@ -61,7 +61,7 @@ The system consists of various classes, each responsible for handling specific a
 
 1. Clone the repository to your local machine.
 2. Install Python 3.x if you haven't already.
-3. Run the main Python file (`main.py` or equivalent) in your Python environment.
+3. Run the main Python file (`oops-project.py` or equivalent) in your Python environment.
 
 ```bash
-python main.py
+python oops-project.py
